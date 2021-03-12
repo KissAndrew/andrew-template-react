@@ -1,21 +1,16 @@
 import * as React from 'react'
 
-import { Button } from '@andrew-cube/react'
+import { Button, SpaceWrapper } from '@andrew-cube/react'
 
 import { ViewStyle } from './style'
 
 const ButtonView = (props) => {
 	return (
 		<ViewStyle>
-			<Button className="m-page">
-				<div
-					onClick={() => {
-						console.log('click')
-					}}
-				>
-					确认3332323
-				</div>
-			</Button>
+			<SpaceWrapper>
+				<Button type="primary">确认3332323</Button>
+				<Button type="danger">确认3332323</Button>
+			</SpaceWrapper>
 		</ViewStyle>
 	)
 }

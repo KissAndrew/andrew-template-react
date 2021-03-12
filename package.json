@@ -1,5 +1,5 @@
 {
-  "name": "andrew-template-react",
+  "name": "@andrew-web/andrew-template-react",
   "version": "1.0.0",
   "description": "项目站台标准模板",
   "scripts": {
@@ -10,7 +10,6 @@
   "author": "雪夜惊鸿",
   "license": "ISC",
   "devDependencies": {
-    "@andrew-cube/react": "^1.0.0",
     "@babel/core": "^7.13.10",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/plugin-proposal-decorators": "^7.13.5",
@@ -27,12 +26,10 @@
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.0",
     "@types/styled-components": "^5.1.7",
-    "archiver": "^5.3.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
     "babel-preset-cv": "^0.1.2",
-    "core-js": "^3.9.1",
     "css-loader": "^5.1.1",
     "eslint-config-cv": "^0.1.0",
     "eslint-config-prettier": "^7.2.0",
@@ -44,11 +41,9 @@
     "lint-staged": "^10.5.3",
     "node-sass": "^4.14.1",
     "prettier": "^2.2.1",
-    "prism-react-renderer": "^1.2.0",
     "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
     "react-dom": "^17.0.1",
-    "react-live": "^2.2.3",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "rollup": "^2.38.0",
@@ -81,9 +76,10 @@
     ]
   },
   "dependencies": {
+    "@andrew-cube/react": "^1.0.3",
+    "@babel/runtime": "^7.12.13",
     "@types/react": "^17.0.3",
-    "@types/react-dom": "^17.0.2",
-    "@babel/runtime": "^7.12.13"
+    "@types/react-dom": "^17.0.2"
   },
   "lint-staged": {
     "**/*.(js|jsx|ts|tsx)": [
